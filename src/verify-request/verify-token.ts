@@ -51,7 +51,7 @@ export function verifyToken(
           await next();
           return;
         } catch (e) {
-          if (e instanceof HttpResponseError && e.code == 401) {
+          if (e instanceof HttpResponseError && e.response.code == 401) {
             // only catch 401 errors
           } else {
             throw e;
