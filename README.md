@@ -1,4 +1,8 @@
-# `@shopify/koa-shopify-auth`
+# Fork from `@shopify/koa-shopify-auth`
+
+## Important, why I fork and rework
+
+In order to fit into Shopify shopify-api v3, you need to edit this package.
 
 ![Build Status](https://github.com/Shopify/koa-shopify-auth/workflows/CI/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md) [![npm version](https://badge.fury.io/js/%40shopify%2Fkoa-shopify-auth.svg)](https://badge.fury.io/js/%40shopify%2Fkoa-shopify-auth)
